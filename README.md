@@ -1,29 +1,35 @@
-# Distributed Algorithms Simulation (Python)
+# Distributed Algorithms Simulation
 
+**Author:** Seth Kipsang  
+**Date:** 21/11/2025  
+**Course:** Distributed Processing Systems  
+**Assignment:** Algorithms for Distributed Processing Systems  
 
-A research and simulation project implementing coordination, consensus, scheduling, load balancing, fault tolerance, and large-scale data processing algorithms for distributed systems and telecommunication networks.
+---
 
+## **Overview**
 
-## Live demo (what's included)
+This repository contains the research, implementation, and Python-based simulations of various distributed algorithms commonly used in telecommunications, cloud computing, and large-scale information systems.  
 
+The goal of this project is to:
 
-- Lamport Logical Clocks (message ordering)
-- Simplified Raft-style Leader Election (election timing, resilience)
-- MapReduce (Word Count) using multiprocessing
-- Load Balancer simulator (round-robin and least-connections)
-- Metrics utilities for measuring latency, throughput, and network efficiency
+- Study key classes of distributed algorithms
+- Simulate algorithm behavior across multiple nodes/processes
+- Measure performance metrics such as latency, throughput, and network efficiency
+- Visualize results and analyze implications for scalable, reliable distributed systems
 
+---
 
-## Repo structure
+## **Algorithms Implemented**
 
+| Category | Algorithm / Demo | Description |
+|----------|-----------------|-------------|
+| **Consensus** | Raft Leader Election | Simulates multiple nodes electing a leader. Logs votes, messages, and heartbeats. CSV logs are saved for plotting and analysis. |
+| **Coordination & Synchronization** | Lamport Timestamps | Demonstrates event ordering across distributed nodes using Lamport clocks. |
+| **Scheduling & Load Balancing** | Load Balancer | Round-Robin and Least-Connections task assignment across worker nodes, measuring tasks processed and connection stats. |
+| **Large-scale Data Processing** | MapReduce | Simulates distributed map/reduce tasks, logs throughput, and processing time. |
 
-See the `docs/` and `src/` directories for detailed code and docs.
+---
 
+## **Folder Structure**
 
-## Quickstart
-
-
-1. Clone the repo
-```bash
-git clone https://github.com/jacksonochieng1540/distributed-algorithms-simulation.git
-cd distributed-algorithms-simulation
