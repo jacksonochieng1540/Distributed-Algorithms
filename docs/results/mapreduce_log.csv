@@ -1,0 +1,2 @@
+chunks,elapsed,event,timestamp,unique_words,workers
+4,0.034904566000477644,mapreduce_run,29003.949100907,2,4
